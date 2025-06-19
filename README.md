@@ -1,32 +1,59 @@
-# Image_Denoising_using_Deep_CNN_Autoencoder
+# 🧼 Image Denoising using Deep CNN Autoencoder
 
-## Overview
+## 📝 Overview
 
-This repository contains a Python implementation of an image denoising application using a Convolutional Neural Network (CNN) based deep autoencoder. The provided interface allows users to upload their noisy MNIST digit images and obtain denoised versions. The model is trained on pairs of noisy and clean MNIST digit images, learning to remove unwanted noise while preserving essential features.
+This repository presents a Python-based application for **image denoising** using a **Convolutional Neural Network (CNN)** powered **deep autoencoder**. It offers a simple and intuitive interface for users to upload their noisy **MNIST digit images** and receive denoised outputs. The model learns to remove noise while preserving important image features by training on pairs of clean and noisy images.
 
-## Features
+---
 
-- **User-Friendly Interface:** The application provides a simple and intuitive web interface for users to upload their noisy images and obtain denoised results.
+## ✨ Features
 
-- **CNN Deep Autoencoder:** The core denoising model is built using a Convolutional Neural Network with a deep autoencoder architecture. The model is trained on a dataset of noisy and clean image pairs to effectively remove noise while retaining important image details.
+- **🖼️ Intuitive User Interface**  
+  A lightweight and easy-to-use graphical interface built with `tkinter` allows users to upload noisy digit images and view the denoised results instantly.
 
-- **Easy Integration:** The codebase is designed for easy integration into existing projects or for further development. The denoising model can be trained on custom datasets, and the interface can be adapted for different applications.
+- **🧠 CNN-Based Deep Autoencoder**  
+  Utilizes a deep convolutional autoencoder architecture to reconstruct clean images from noisy inputs. The model is trained on the MNIST dataset for robust performance on handwritten digits.
 
-## Getting Started
+- **🛠️ Modular Codebase**  
+  The project is structured for easy extension and integration. The autoencoder can be retrained on custom datasets, and the GUI can be adapted for broader applications.
 
-### Prerequisites
+---
 
-- Python 3.x
-- Pillow
-- Numpy
-- Matplotlib
-- Keras
-- tkinter
+## 🚀 Getting Started
 
-## Future Work
+### ✅ Prerequisites
 
-- **Color Image Denoising:** Extend the model to handle color images by adapting the architecture to handle multiple channels.
+Ensure you have the following installed:
 
-- **Optimization:** Explore techniques to optimize the model for faster inference without compromising denoising performance.
+- Python 3.x  
+- `Pillow`  
+- `NumPy`  
+- `Matplotlib`  
+- `Keras` / `TensorFlow` backend  
+- `tkinter` (usually comes pre-installed with Python)
 
-- **User Authentication:** Implement user authentication for secure access to the denoising service.
+### 🔧 Installation
+Clone the repository and install the required packages:
+
+  ```bash
+  git clone https://github.com/ANAMIKATIWARI2002/Image_Denoising_using_Deep_CNN_Autoencoder.git
+  cd Image_Denoising_using_Deep_CNN_Autoencoder
+  pip install -r requirements.txt bash
+  ```
+
+### Run the notebook or the Python script:
+To open the Jupyter Notebook:
+
+  ```bash
+  jupyter notebook denoising_autoencoder.ipynb
+  ```
+  
+OR to launch the GUI interface:
+  ```bash
+  python denoising_interface.py
+  ```
+
+
+
+
+
